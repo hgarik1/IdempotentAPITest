@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NGbk0avOS3M06/pOKF6NKZVlefRx2kFPAFTqaNC+/QU=",
+  "Source": "IdempotentAPITest",
+  "BasePath": "_content/IdempotentAPITest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

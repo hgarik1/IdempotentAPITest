@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gahak\\source\\repos\\IdempotentAPITest\\IdempotentAPITest\\IdempotentAPITest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gahak\\source\\repos\\IdempotentAPITest\\IdempotentAPITest\\IdempotentAPITest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gahak\\source\\repos\\IdempotentAPITest\\IdempotentAPITest\\IdempotentAPITest.csproj",
+        "projectName": "IdempotentAPITest",
+        "projectPath": "C:\\Users\\gahak\\source\\repos\\IdempotentAPITest\\IdempotentAPITest\\IdempotentAPITest.csproj",
+        "packagesPath": "C:\\Users\\gahak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gahak\\source\\repos\\IdempotentAPITest\\IdempotentAPITest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gahak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/highwaybaas/Infrastructure/_packaging/HighWay-Feed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/highwaybaas/_packaging/highwaybaas%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdempotentAPI": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "IdempotentAPI.Cache.FusionCache": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
